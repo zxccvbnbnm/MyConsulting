@@ -1,0 +1,352 @@
+<!-- It is after downloading a template from materializecss site and customizing it -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Piper Consulting</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <!--  JavaScripts-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.slider').slider();
+            //$('.slider').slider({fullWidth: true, indicators: false, height: 500, interval: 6000});
+            $('.scrollspy').scrollSpy()
+            $('.datepicker').datepicker();
+        });
+    </script>
+</head>
+
+<body id="home">
+
+    <!-- navigation bar -->
+    <nav class="" role="navigation">
+        <div class="nav-wrapper black lighten-1"><a id="logo-container" href="#" class="brand-logo"><i class="large material-icons">code</i>Piper Consulting</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#info">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#info">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons menu">menu</i></a>
+        </div>
+    </nav>
+
+    <!-- slider -->
+    <section class="slider">
+        <ul class="slides">
+            <li>
+                <img src="space.webp"> <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Piper Consulting!</h1>
+                    <h5 class="light grey-text text-lighten-3">World Class Expert!</h5>
+                    <a class="waves-effect waves-light btn btn-large white black-text">Learn More</a>
+                </div>
+            </li>
+            <li>
+                <img src="ppl.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h1>Fall Drawing Seminar</h1>
+                    <h5 class="light grey-text text-lighten-3">Learn Digital, pencil, watercolor, and more!</h5>
+                    <a class="waves-effect waves-light btn btn-large white black-text">Learn More</a>
+
+                </div>
+            </li>
+            <li>
+                <img src="games.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h1>Spring Games Seminar</h1>
+                    <h5 class="light grey-text text-lighten-3">Join our experts and learn everything you need to know about gaming!</h5>
+                    <a class="waves-effect waves-light btn btn-large white black-text">Learn More</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- services -->
+    <div id="service" class="container scrollspy">
+        <div class="section">
+
+            <!--   Icon section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-black-text"><i class="material-icons">flash_on</i></h2>
+                        <h5 class="center">Speeds up development</h5>
+                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-black-text"><i class="material-icons">group</i></h2>
+                        <h5 class="center">User Experience Focused</h5>
+
+                        <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-black-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Easy to work with</h5>
+                        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- info -->
+    <section id="info" class="section section-info scrollspy">
+        <h4 class="center">Newest Tech Info</h4>
+        <h6 class="center">Updated: Oct 22, 2024</h6>
+        <!-- first card -->
+        <div class="row">
+            <div class="col l3 m6 s12">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="tech_consulting1.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- second card -->
+            <div class="col l3 m6 s12">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="tech_consulting2.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- third card -->
+            <div class="col l3 m6 s12">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="tech_consulting3.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fourth card -->
+            <div class="col l3 m6 s12">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="tech_consulting4.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Me-->
+
+
+    <section class="aboutme">
+        <div class="container">
+            <h4 class="center">About Me</h4>
+
+            <img class="pic" src="Piper-51.jpg" width=20% height=20% alt="picture of me" />
+
+            <p class="word">Piper Fischer is a student studying at Miami University in Oxford Ohio. Before going to Miami University, she graduated from Cincinatti Hills Christian Academy. At Miami, she is a Games and Simulation major studying in the College of Creative Arts. When she is not doing classwork, she spends her time drawing or playing videogames. Her favorite game genres are RPG's, rhythm games, and anything with an element of character customization. </p>
+
+            <div class="contactinfo">
+
+
+                <table class="infotable">
+
+                    <tr>
+                        <td>
+                            <p><i class="material-icons">home</i></p>
+                            <p class="container" id="address">
+                                21 North Fisher Drive. Oxford, OH
+                            </p>
+                        </td>
+                        <td>
+                            <p><i class="material-icons">phone</i></p>
+                            <p class="container" id="phone">
+                                Phone: 999-999-9999
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p><i class="material-icons">work</i></p>
+                            <p class="container" id="work">
+                                Work: Student, Miami University
+                            </p>
+                        </td>
+                        <td>
+                            <p><i class="material-icons">email</i></p>
+                            <p class="container" id="email">
+                                Email: fischepj@miamioh.edu
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- social media -->
+    <section class="section section-follow black darken-2 white-text center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Follow Our Site</h4>
+                    <p>Follow Our Social Media for Special Events and Deals</p>
+                    <!-- we used fontawesome for social media icons. see the link of fontawesome in line 14. you can also check https://fontawesome.com/icons -->
+                    <a href="#" class="white-text">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-google-plus fa-2x"></i>
+                    </a>
+                    <a href="#" class="white-text"> <i class="fab fa-pinterest fa-2x"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact us -->
+    <section id="contact" class="section section-contact scrollspy">
+
+        <h4 class="center">Contact Us</h4>
+
+        <div class="container">
+            <div class="row">
+                <form action="" method="POST" class="col s12">
+                    <div class="row">
+
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" name="name" class="validate">
+                            <label for="icon_prefix">Name</label>
+                        </div>
+
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">email</i>
+                            <input id="icon_prefix" type="text" name="email" class="validate">
+                            <label for="icon_prefix">Email</label>
+                        </div>
+
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="icon_telephone" type="tel" class="validate" name="phone">
+                            <label for="icon_telephone">Telephone</label>
+                        </div>
+
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">event</i>
+                            <input id="icon_telephone" type="tel" class="datepicker" name="phone">
+                            <label for="icon_telephone">Best Date to Contact</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">message</i>
+                            <textarea id="textarea1" class="materialize-textarea" name="comment"></textarea>
+                            <label for="textarea1">Textarea</label>
+                        </div>
+
+                    </div>
+                    <input type="submit" value="Submit" class="black btn-large">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Company Bio</h5>
+                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+                </div>
+                <div class="col l3 m6 s12">
+                    <h5 class="white-text">Settings</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 m6 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; Piper Fischer, All Right Reserved. <a class="orange-text text-lighten-3" href="http://materializecss.com">Adopted from Materialize Template</a>
+            </div>
+        </div>
+    </footer>
+</body></html>

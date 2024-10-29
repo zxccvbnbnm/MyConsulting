@@ -1,0 +1,71 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.brand-logo {
+    margin-left: 40px;
+}
+
+.slider .btn {
+    margin-top: 20px;
+    padding: 0 50px;
+    border-radius: 1%;
+}
+
+.card-image img,
+.card-content p {
+    height: 150px;
+}
+
+.section-follow .fa-4x {
+    margin: 5px 10px;
+}
+
+.section-contact {
+    margin-top: 20px;
+}
+
+.aboutme {
+    margin: 80px;
+    
+}
+
+.pic {
+    margin: 10px;
+    float:left;
+    max-width: 150px;
+}
+
+.word {
+    margin: 20px;
+}
+
+
+
+.contactinfo {
+    margin: 40px
+}
+
+th, td {
+    border-style: hidden;
+}
+
+.material-icons {
+    float:left;
+}
+
+.contactme {
+    margin: 10px;
+}
